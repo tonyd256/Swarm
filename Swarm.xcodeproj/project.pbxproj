@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4E39141AFABF67009BE376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E39131AFABF67009BE376 /* AppDelegate.swift */; };
+		EA4E39161AFABF67009BE376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E39151AFABF67009BE376 /* ViewController.swift */; };
+		EA4E39191AFABF67009BE376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4E39171AFABF67009BE376 /* Main.storyboard */; };
+		EA4E391B1AFABF67009BE376 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4E391A1AFABF67009BE376 /* Images.xcassets */; };
+		EA4E391E1AFABF67009BE376 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4E391C1AFABF67009BE376 /* LaunchScreen.xib */; };
+		EA4E392A1AFABF67009BE376 /* SwarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E39291AFABF67009BE376 /* SwarmTests.swift */; };
+		EA4E393D1AFAC100009BE376 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E393C1AFAC100009BE376 /* InterfaceController.swift */; };
+		EA4E393F1AFAC100009BE376 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E393E1AFAC100009BE376 /* NotificationController.swift */; };
+		EA4E39411AFAC100009BE376 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E39401AFAC100009BE376 /* GlanceController.swift */; };
+		EA4E39431AFAC100009BE376 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4E39421AFAC100009BE376 /* Images.xcassets */; };
+		EA4E39471AFAC100009BE376 /* Swarm WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EA4E39461AFAC100009BE376 /* Swarm WatchKit App.app */; };
+		EA4E394F1AFAC100009BE376 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4E394D1AFAC100009BE376 /* Interface.storyboard */; };
+		EA4E39511AFAC100009BE376 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4E39501AFAC100009BE376 /* Images.xcassets */; };
+		EA4E39541AFAC100009BE376 /* Swarm WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA4E39371AFAC100009BE376 /* Swarm WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA4E39241AFABF67009BE376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4E39061AFABF67009BE376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4E390D1AFABF67009BE376;
+			remoteInfo = Swarm;
+		};
+		EA4E39481AFAC100009BE376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4E39061AFABF67009BE376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4E39451AFAC100009BE376;
+			remoteInfo = "Swarm WatchKit App";
+		};
+		EA4E39521AFAC100009BE376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4E39061AFABF67009BE376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4E39361AFAC100009BE376;
+			remoteInfo = "Swarm WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA4E395B1AFAC100009BE376 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA4E39541AFAC100009BE376 /* Swarm WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA4E390E1AFABF67009BE376 /* Swarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4E39121AFABF67009BE376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4E39131AFABF67009BE376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4E39151AFABF67009BE376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4E39181AFABF67009BE376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4E391A1AFABF67009BE376 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA4E391D1AFABF67009BE376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA4E39231AFABF67009BE376 /* SwarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4E39281AFABF67009BE376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4E39291AFABF67009BE376 /* SwarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwarmTests.swift; sourceTree = "<group>"; };
+		EA4E39371AFAC100009BE376 /* Swarm WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Swarm WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4E393A1AFAC100009BE376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4E393B1AFAC100009BE376 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EA4E393C1AFAC100009BE376 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EA4E393E1AFAC100009BE376 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EA4E39401AFAC100009BE376 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		EA4E39421AFAC100009BE376 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA4E39461AFAC100009BE376 /* Swarm WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swarm WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4E394C1AFAC100009BE376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4E394E1AFAC100009BE376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EA4E39501AFAC100009BE376 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4E390B1AFABF67009BE376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39201AFABF67009BE376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39341AFAC100009BE376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4E39051AFABF67009BE376 = {
+			isa = PBXGroup;
+			children = (
+				EA4E39101AFABF67009BE376 /* Swarm */,
+				EA4E39261AFABF67009BE376 /* SwarmTests */,
+				EA4E39381AFAC100009BE376 /* Swarm WatchKit Extension */,
+				EA4E394A1AFAC100009BE376 /* Swarm WatchKit App */,
+				EA4E390F1AFABF67009BE376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4E390F1AFABF67009BE376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E390E1AFABF67009BE376 /* Swarm.app */,
+				EA4E39231AFABF67009BE376 /* SwarmTests.xctest */,
+				EA4E39371AFAC100009BE376 /* Swarm WatchKit Extension.appex */,
+				EA4E39461AFAC100009BE376 /* Swarm WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4E39101AFABF67009BE376 /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E39131AFABF67009BE376 /* AppDelegate.swift */,
+				EA4E39151AFABF67009BE376 /* ViewController.swift */,
+				EA4E39171AFABF67009BE376 /* Main.storyboard */,
+				EA4E391A1AFABF67009BE376 /* Images.xcassets */,
+				EA4E391C1AFABF67009BE376 /* LaunchScreen.xib */,
+				EA4E39111AFABF67009BE376 /* Supporting Files */,
+			);
+			path = Swarm;
+			sourceTree = "<group>";
+		};
+		EA4E39111AFABF67009BE376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E39121AFABF67009BE376 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4E39261AFABF67009BE376 /* SwarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E39291AFABF67009BE376 /* SwarmTests.swift */,
+				EA4E39271AFABF67009BE376 /* Supporting Files */,
+			);
+			path = SwarmTests;
+			sourceTree = "<group>";
+		};
+		EA4E39271AFABF67009BE376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E39281AFABF67009BE376 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4E39381AFAC100009BE376 /* Swarm WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E393C1AFAC100009BE376 /* InterfaceController.swift */,
+				EA4E393E1AFAC100009BE376 /* NotificationController.swift */,
+				EA4E39401AFAC100009BE376 /* GlanceController.swift */,
+				EA4E39421AFAC100009BE376 /* Images.xcassets */,
+				EA4E39391AFAC100009BE376 /* Supporting Files */,
+			);
+			path = "Swarm WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EA4E39391AFAC100009BE376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E393A1AFAC100009BE376 /* Info.plist */,
+				EA4E393B1AFAC100009BE376 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4E394A1AFAC100009BE376 /* Swarm WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E394D1AFAC100009BE376 /* Interface.storyboard */,
+				EA4E39501AFAC100009BE376 /* Images.xcassets */,
+				EA4E394B1AFAC100009BE376 /* Supporting Files */,
+			);
+			path = "Swarm WatchKit App";
+			sourceTree = "<group>";
+		};
+		EA4E394B1AFAC100009BE376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4E394C1AFAC100009BE376 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4E390D1AFABF67009BE376 /* Swarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4E392D1AFABF67009BE376 /* Build configuration list for PBXNativeTarget "Swarm" */;
+			buildPhases = (
+				EA4E390A1AFABF67009BE376 /* Sources */,
+				EA4E390B1AFABF67009BE376 /* Frameworks */,
+				EA4E390C1AFABF67009BE376 /* Resources */,
+				EA4E395B1AFAC100009BE376 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4E39531AFAC100009BE376 /* PBXTargetDependency */,
+			);
+			name = Swarm;
+			productName = Swarm;
+			productReference = EA4E390E1AFABF67009BE376 /* Swarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA4E39221AFABF67009BE376 /* SwarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4E39301AFABF67009BE376 /* Build configuration list for PBXNativeTarget "SwarmTests" */;
+			buildPhases = (
+				EA4E391F1AFABF67009BE376 /* Sources */,
+				EA4E39201AFABF67009BE376 /* Frameworks */,
+				EA4E39211AFABF67009BE376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4E39251AFABF67009BE376 /* PBXTargetDependency */,
+			);
+			name = SwarmTests;
+			productName = SwarmTests;
+			productReference = EA4E39231AFABF67009BE376 /* SwarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA4E39361AFAC100009BE376 /* Swarm WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4E39581AFAC100009BE376 /* Build configuration list for PBXNativeTarget "Swarm WatchKit Extension" */;
+			buildPhases = (
+				EA4E39331AFAC100009BE376 /* Sources */,
+				EA4E39341AFAC100009BE376 /* Frameworks */,
+				EA4E39351AFAC100009BE376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4E39491AFAC100009BE376 /* PBXTargetDependency */,
+			);
+			name = "Swarm WatchKit Extension";
+			productName = "Swarm WatchKit Extension";
+			productReference = EA4E39371AFAC100009BE376 /* Swarm WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		EA4E39451AFAC100009BE376 /* Swarm WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4E39551AFAC100009BE376 /* Build configuration list for PBXNativeTarget "Swarm WatchKit App" */;
+			buildPhases = (
+				EA4E39441AFAC100009BE376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swarm WatchKit App";
+			productName = "Swarm WatchKit App";
+			productReference = EA4E39461AFAC100009BE376 /* Swarm WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4E39061AFABF67009BE376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tonyd;
+				TargetAttributes = {
+					EA4E390D1AFABF67009BE376 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7X7CX2JX3F;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					EA4E39221AFABF67009BE376 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EA4E390D1AFABF67009BE376;
+					};
+					EA4E39361AFAC100009BE376 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EA4E39451AFAC100009BE376 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EA4E39091AFABF67009BE376 /* Build configuration list for PBXProject "Swarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4E39051AFABF67009BE376;
+			productRefGroup = EA4E390F1AFABF67009BE376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4E390D1AFABF67009BE376 /* Swarm */,
+				EA4E39221AFABF67009BE376 /* SwarmTests */,
+				EA4E39361AFAC100009BE376 /* Swarm WatchKit Extension */,
+				EA4E39451AFAC100009BE376 /* Swarm WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4E390C1AFABF67009BE376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E39191AFABF67009BE376 /* Main.storyboard in Resources */,
+				EA4E391E1AFABF67009BE376 /* LaunchScreen.xib in Resources */,
+				EA4E391B1AFABF67009BE376 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39211AFABF67009BE376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39351AFAC100009BE376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E39431AFAC100009BE376 /* Images.xcassets in Resources */,
+				EA4E39471AFAC100009BE376 /* Swarm WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39441AFAC100009BE376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E394F1AFAC100009BE376 /* Interface.storyboard in Resources */,
+				EA4E39511AFAC100009BE376 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4E390A1AFABF67009BE376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E39161AFABF67009BE376 /* ViewController.swift in Sources */,
+				EA4E39141AFABF67009BE376 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E391F1AFABF67009BE376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E392A1AFABF67009BE376 /* SwarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E39331AFAC100009BE376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E393F1AFAC100009BE376 /* NotificationController.swift in Sources */,
+				EA4E393D1AFAC100009BE376 /* InterfaceController.swift in Sources */,
+				EA4E39411AFAC100009BE376 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA4E39251AFABF67009BE376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4E390D1AFABF67009BE376 /* Swarm */;
+			targetProxy = EA4E39241AFABF67009BE376 /* PBXContainerItemProxy */;
+		};
+		EA4E39491AFAC100009BE376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4E39451AFAC100009BE376 /* Swarm WatchKit App */;
+			targetProxy = EA4E39481AFAC100009BE376 /* PBXContainerItemProxy */;
+		};
+		EA4E39531AFAC100009BE376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4E39361AFAC100009BE376 /* Swarm WatchKit Extension */;
+			targetProxy = EA4E39521AFAC100009BE376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA4E39171AFABF67009BE376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4E39181AFABF67009BE376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4E391C1AFABF67009BE376 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4E391D1AFABF67009BE376 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA4E394D1AFAC100009BE376 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4E394E1AFAC100009BE376 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4E392B1AFABF67009BE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4E392C1AFABF67009BE376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4E392E1AFABF67009BE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swarm/Swarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EA4E392F1AFABF67009BE376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swarm/Swarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EA4E39311AFABF67009BE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swarm.app/Swarm";
+			};
+			name = Debug;
+		};
+		EA4E39321AFABF67009BE376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swarm.app/Swarm";
+			};
+			name = Release;
+		};
+		EA4E39561AFAC100009BE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Swarm_WatchKit_Extension;
+				INFOPLIST_FILE = "Swarm WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		EA4E39571AFAC100009BE376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Swarm_WatchKit_Extension;
+				INFOPLIST_FILE = "Swarm WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		EA4E39591AFAC100009BE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swarm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA4E395A1AFAC100009BE376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swarm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4E39091AFABF67009BE376 /* Build configuration list for PBXProject "Swarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4E392B1AFABF67009BE376 /* Debug */,
+				EA4E392C1AFABF67009BE376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4E392D1AFABF67009BE376 /* Build configuration list for PBXNativeTarget "Swarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4E392E1AFABF67009BE376 /* Debug */,
+				EA4E392F1AFABF67009BE376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA4E39301AFABF67009BE376 /* Build configuration list for PBXNativeTarget "SwarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4E39311AFABF67009BE376 /* Debug */,
+				EA4E39321AFABF67009BE376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA4E39551AFAC100009BE376 /* Build configuration list for PBXNativeTarget "Swarm WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4E39561AFAC100009BE376 /* Debug */,
+				EA4E39571AFAC100009BE376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA4E39581AFAC100009BE376 /* Build configuration list for PBXNativeTarget "Swarm WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4E39591AFAC100009BE376 /* Debug */,
+				EA4E395A1AFAC100009BE376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4E39061AFABF67009BE376 /* Project object */;
+}
